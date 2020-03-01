@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Alex's Application</title>
+<!--Meta Data Specificity-->
+	<meta charset="utf-8"/>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+	<meta name="viewport" content="width=device-width, user-scalable=no"/>
+    <meta content="Alexander Fish" name="author"/>
+<!--Style Sheets and Scripts-->
+	<link href="css/index.css" type="text/css" rel="stylesheet"/>
+	<script src="js/index.js" type="text/javascript"></script>
+	<script src="phonegap.js"></script>
+	<!--FastClick Plugin-->
+	<script type='application/javascript' src='js/fastclick.js'></script>
+	<script>
+		window.addEventListener('load', function() {
+		FastClick.attach(document.body);
+		}, false);
+	</script>
+</head>
+<body>
+
+<!-- Header-->
+<header id="main-header">
+	<h1 id="array"> </h1>
+</header>
+
+<!--SLIDER 1 MAIN MENU-->
+
+<div class="TransitionClass1" id="open1"  onclick="open1() + wrap()"/>GO! &#x27a7;</div>
+
+<div class="dead" id="dead1"></div>
+<div class="dead" id="dead2"></div>
+<div class="dead" id="dead3"></div>
+<div class="dead" id="dead4"></div>
+<div class="dead" id="dead5"></div>
+<div class="dead" id="dead6"></div>
+
+<div  id="wrap" >
+<br>
+<button id="jelly1" onclick="jelly1(); iterate()">&#128064;</button>
+<br>
+<button id="jelly2" onclick="jelly2(); iterate()">&#128064;</button>
+<br>
+<button id="jelly3" onclick="jelly3(); iterate()">&#128064;</button>
+<br>
+<button id="jelly4" onclick="jelly4(); iterate()">&#128064;</button>
+<br>
+<button id="jelly5" onclick="jelly5(); iterate()">&#128064;</button>
+<br>
+<button id="jelly6" onclick="jelly6(); iterate()">&#128064;</button>
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!--JAVASCRIPT-->
+<script type="text/javascript">
+
+
+//ALL CODE FOR HEADER
+	//mss_index starts with base set of 0
+	var mss_index = 0;
+	var mss_array = [
+		"Jelly Splat!"];
+	var mss_elem; //referenced in script in <body>
+	//Functions
+	function mssNext(){
+		mss_index++;
+		mss_elem.style.opacity = 0; //0 sets opacity or "transparency" to 0, aka invisible
+		//Loop
+		if(mss_index > (mss_array.length - 1)){
+			mss_index = 0;
+		}
+		//setTimeout waits "specified" seconds until executing the other function
+		setTimeout('mssSlide()',300);//Duration Invisible
+	}
+	function mssSlide(){
+		mss_elem.innerHTML = mss_array[mss_index]; //First Target
+		mss_elem.style.opacity = 1; //1 sets opacity or "transparency" to 1, aka visible
+		//setTimeout waits "specified" seconds until executing the other function
+		setTimeout('mssNext()',300); //Duration Visible
+	}
+	//The element in which this function will be active
+	mss_elem = document.getElementById("array"); mssSlide(); 
+
+
+	
+	
+
+</script>

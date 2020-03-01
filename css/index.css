@@ -1,0 +1,314 @@
+body {
+	background-color: #122666;  
+}
+#main-header {
+	background-color: #330044; 
+	text-align: center;
+	padding: 4%;
+	margin-bottom: 10%;
+}
+ #array {
+	color: #FFFFFF;
+	opacity: 0;
+	transition:  100ms linear 0s; /*DURATION FADE*/
+	-webkit-transition:  100ms linear 0s; /*-WEBKIT- FOR BROWSER WITHOUT TRANSITION FUNCTIONALITY*/
+}
+
+.dead {
+	float: left;
+}
+
+#wrap {
+	visibility: hidden;
+	position: fixed;
+}
+
+/*MENU DECORATION*/
+.TransitionClass1  {
+	background-color: #000033;
+	border-radius: 10px 10px;
+	clear:both;
+	width: 28%;
+	color: #FFF;
+	font-size: 1.5em;
+	list-style-type: none;
+	padding: 9% 3% 9% 3%;	
+	text-align: center;
+	
+	transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+}
+
+
+
+#jelly1 {
+background-color: blue;
+border: 1px solid blue;
+width:60px;
+height:60px;
+text-align: center;
+position: relative;
+animation:jelly1 7s infinite;
+-webkit-animation:jelly1 7s infinite; /* Safari and Chrome */
+
+}
+#jelly2 {
+background-color: purple;
+border: 1px solid purple;
+width:60px;
+height:60px;
+text-align: center;
+position: relative;
+animation:jelly2 8s infinite;
+-webkit-animation:jelly2 8s infinite; /* Safari and Chrome */
+}
+#jelly3 {
+background-color: yellow;
+border: 1px solid yellow;
+width:70px;
+height:70px;
+text-align: center;
+position: relative;
+animation:jelly3 2s infinite;
+-webkit-animation:jelly3 2s infinite; /* Safari and Chrome */
+}
+#jelly4 {
+background-color: blue;
+border: 1px solid blue;
+width:60px;
+height:60px;
+text-align: center;
+position: relative;
+animation:jelly4 5s infinite;
+-webkit-animation:jelly4 5s infinite; /* Safari and Chrome */
+}
+#jelly5 {
+background-color: yellow;
+border: 1px solid yellow;
+width:70px;
+height:70px;
+text-align: center;
+position: relative;
+animation:jelly5 3s infinite;
+-webkit-animation:jelly5 3s infinite; /* Safari and Chrome */
+}
+#jelly6 {
+background-color: purple;
+border: 1px solid purple;
+width:70px;
+height:70px;
+text-align: center;
+position: relative;
+animation:jelly6 7s infinite;
+-webkit-animation:jelly6 7s infinite; /* Safari and Chrome */
+}
+
+
+@keyframes jelly1
+{
+0% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+10% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+20% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+30% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+40% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+50% {left:80%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+
+
+60% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+70% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+80% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+90% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+100% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+}
+
+@keyframes jelly2
+{
+0% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+10% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+20% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+30% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+40% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+50% {left:80%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+
+
+60% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+70% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+80% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+90% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+100% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+}
+
+@keyframes jelly3
+{
+0% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+10% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+20% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+30% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+40% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+50% {left:80%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+
+
+60% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+70% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+80% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+90% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+100% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+}
+
+@keyframes jelly4
+{
+0% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+10% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+20% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+30% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+40% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+50% {left:80%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+
+
+60% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+70% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+80% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+90% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+100% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+}
+
+@keyframes jelly5
+{
+0% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+10% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+20% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+30% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+40% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+50% {left:80%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+
+
+60% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+70% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+80% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+90% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+100% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+}
+
+@keyframes jelly6
+{
+0% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+10% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+20% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+30% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+40% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+50% {left:80%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+
+
+60% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+70% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+80% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+90% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+100% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+}
+
+
+
+
+
+
+@-webkit-keyframes jelly1 /* Safari and Chrome */
+{
+0% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+10% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+20% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+30% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+40% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+50% {left:80%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+
+
+60% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+70% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+80% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+90% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+100% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+}
+
+@-webkit-keyframes jelly2 /* Safari and Chrome */
+{
+0% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+10% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+20% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+30% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+40% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+50% {left:80%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+
+
+60% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+70% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+80% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+90% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+100% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+}
+
+@-webkit-keyframes jelly3 /* Safari and Chrome */
+{
+0% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+10% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+20% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+30% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+40% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+50% {left:80%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+
+
+60% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+70% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+80% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+90% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+100% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+}
+
+@-webkit-keyframes jelly4 /* Safari and Chrome */
+{
+0% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+10% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+20% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+30% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+40% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+50% {left:80%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+
+
+60% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+70% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+80% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+90% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+100% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+}
+
+@-webkit-keyframes jelly5 /* Safari and Chrome */
+{
+0% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+10% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+20% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+30% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+40% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+50% {left:80%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+
+
+60% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+70% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+80% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+90% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+100% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+}
+
+@-webkit-keyframes jelly6 /* Safari and Chrome */
+{
+0% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+10% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+20% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+30% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+40% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+50% {left:80%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+
+
+60% {left:80%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+70% {left:60%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+80% {left:40%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+90% {left:20%; top:0px; border-radius: 100% 100% 100% 100%; padding-bottom: 0px;}
+100% {left:0%; top:40px; border-radius: 100% 100% 10px 10px; padding-bottom: 10px;}
+}
